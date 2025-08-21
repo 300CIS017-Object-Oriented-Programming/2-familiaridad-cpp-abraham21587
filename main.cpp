@@ -4,7 +4,7 @@
 
 void probarMatematicas()
 {
-    std::cout << "Bienvenido al programa de matemáticas" << std::endl;
+    std::cout << "Bienvenido a mi Calculadora Simple" << std::endl;
     std::cout << "Ingresa el primer numero" << std::endl;
     int num1;
     std::cin >> num1;
