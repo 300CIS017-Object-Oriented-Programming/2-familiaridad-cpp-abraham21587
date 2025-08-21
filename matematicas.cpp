@@ -9,8 +9,7 @@ int sumar(int num1, int num2)
 
 int restar(int num1, int num2)
 {
-    // TODO agregar validacion para que num1 >= num2, sino cambiar el orden para restar num2 - num1
-    return num1 - num2;
+    return (num1 >= num2) ? num1 - num2 : num2 - num1;
 }
 
 // Ejemplos con arreglos
@@ -38,6 +37,7 @@ void mostrarArreglo(int arreglo[], int tamano)
 {
     for (int i = 0; i < tamano; i++)
     {
-        std::cout << arreglo[i] << " "; // Muestra el elemento en la posición i})
+        std::cout << arreglo[i] << " ";
     }
+    std::cout << std::endl;
 }
